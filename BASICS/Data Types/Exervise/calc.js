@@ -1,0 +1,22 @@
+
+function solve(first, operator, second) {
+  let result = first + operator + second
+  
+  switch (operator) {
+    case "+":
+      result = first + second
+      break;
+    case "-":
+      result = first - second
+      break;
+    case "*":
+      result = first * second
+      break;
+    case "/":
+      result = first / second
+      break;
+  }
+  console.log(result.toFixed(2))
+}
+
+solve(5, "+", 10)

@@ -1,0 +1,10 @@
+
+function whileDemo(input) {
+  let num = [1, 2, 3, 4, 5];
+
+  while(true){
+    if ()
+  }
+}
+
+whileDemo() 
